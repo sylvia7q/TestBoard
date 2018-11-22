@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray">#AFAFAF</color>
+    <color name="blue">#499BF7</color>
+    <color name="light_blue">#80499BF7</color>
+    <color name="pressed_btn">#FFCC00</color>
+    <color name="divide_line">#CBCED2</color>
+    <color name="dark_grey">#FF555555</color>
+    <color name="holo_blue_dark" >#ff0099cc</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="red">#FF0000</color>
+    <color name="btn_warn">#f2c437</color>
+    <color name="bg_divide">#efefef</color>
+    <color name="doov_background">#dd127b</color>
+    <color name="total_board_title_bg">#5a9bd5</color>
+    <color name="total_board_item_single_bg">#d2ddef</color>
+    <color name="total_board_item_double_bg">#eaeef7</color>
+    <color name="bulletin_bg_color">#60505050</color>
+    <!--<color name="background_theme_light_blue">#cfddee</color>
+    <color name="btn_fill_normal_color">#dbe6f3</color>
+    <color name="btn_fill_select_color">#d7d9da</color>
+    <color name="btn_frame_normal_color">#abbbd1</color>
+    <color name="about_company_text_color">#1e385a</color>
+    <color name="table_frame_color">#c5d9f7</color>
+    <color name="table_fill_normal_color">#f3f7fb</color>
+    <color name="table_fill_select_color">#fbfbf3</color>
+    <color name="title_normal_color">#bdd0e8</color>
+    <color name="title_divide_line_color">#859ebf</color>
+    <color name="input_frame_color">#8ba0bc</color>
+    <color name="input_fill_enable_color">#cfddee</color>
+    <color name="small_title_text_color">#1e385a</color>
+    <color name="enable_text_color">#89959d</color>
+    <color name="dialog_title_bg">#bdd1e9</color>-->
+</resources>

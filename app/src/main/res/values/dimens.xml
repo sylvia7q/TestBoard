@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dimen_activity_login_width">150dp</dimen>
+    <dimen name="dimen_activity_login_title_size">40sp</dimen>
+    <dimen name="dimen_activity_login_mc_code_title_size">30sp</dimen>
+
+    <dimen name="dimen_view_employee_role_size">20sp</dimen>
+    <dimen name="dimen_view_employee_name_size">20sp</dimen>
+
+    <dimen name="dimen_btn_size">20sp</dimen>
+    <dimen name="dimen_menu_list_size">25sp</dimen><!--功能菜单列表左边标题字体大小-->
+    <dimen name="dimen_menu_state_list_size">25sp</dimen><!--功能菜单列表标题右边说明字体大小-->
+    <dimen name="dimen_data_list_size">18sp</dimen><!--listview内容字体大小-->
+    <dimen name="dimen_view_table_title_size">20sp</dimen><!--车间看板table标题字体大小-->
+    <dimen name="dimen_view_table_content_size">18sp</dimen><!--车间看板table内容字体大小-->
+
+    <dimen name="dimen_view_wo_title_size">20sp</dimen><!--线看板制令单标题字体大小-->
+    <dimen name="dimen_view_wo_content_size">20sp</dimen><!--线看板制令单内容字体大小-->
+
+    <dimen name="dimen_view_chart_title_size">20sp</dimen><!--图表控件标题大小-->
+    <dimen name="dimen_pattem_title_size">30sp</dimen><!--图表控件标题大小-->
+
+    <dimen name="dimen_ip_text_size">20sp</dimen><!--ip设置字体大小-->
+
+</resources>

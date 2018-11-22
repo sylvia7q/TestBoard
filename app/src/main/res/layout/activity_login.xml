@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+    <!--APP描述及显示相关设置信息 -->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.6"
+        android:gravity="top"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/style_activity_login_tv"
+            android:text="@string/app_name"
+            android:textColor="@color/black"
+            android:textSize="@dimen/dimen_activity_login_title_size" />
+        <TextView
+            android:id="@+id/main_activity_tv_mc_code_name"
+            style="@style/style_activity_login_tv"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/dimen_activity_login_mc_code_title_size" />
+    </LinearLayout>
+
+    <!--账号、密码 -->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <EditText
+            android:id="@+id/main_activity_et_user_name"
+            style="@style/style_activity_login_et"
+            android:drawableLeft="@mipmap/login_user"
+            android:hint="@string/prompt_user_no"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/main_activity_et_user_pwd"
+            style="@style/style_activity_login_et"
+            android:layout_marginTop="5dp"
+            android:gravity="center_vertical"
+            android:drawableLeft="@mipmap/login_pwd"
+            android:hint="@string/prompt_user_pwd"
+            android:inputType="textPassword"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginLeft="@dimen/dimen_activity_login_width"
+            android:layout_marginRight="@dimen/dimen_activity_login_width"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+            <CheckBox
+                android:id="@+id/main_activity_cb_save_pwd"
+                style="@style/style_activity_login_cb"
+                android:text="@string/save_pwd"/>
+            <CheckBox
+                android:id="@+id/main_activity_cb_auto_login"
+                style="@style/style_activity_login_cb"
+                android:text="@string/auto_login"/>
+            <CheckBox
+                android:id="@+id/activity_template_cb_auto_run"
+                style="@style/style_activity_login_cb"
+                android:text="@string/auto"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="@color/gray"
+                android:layout_marginLeft="10dp"
+                android:textSize="10sp"
+                android:visibility="gone"
+                android:gravity="center_vertical"
+                android:text="@string/auto_state"/>
+        </LinearLayout>
+        <Button
+            android:id="@+id/main_activity_btn_login"
+            style="@style/style_btn"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="@dimen/dimen_activity_login_width"
+            android:layout_marginRight="@dimen/dimen_activity_login_width"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/login" />
+
+    </LinearLayout>
+
+    <!--设置 -->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:alwaysDrawnWithCache="true"
+        android:gravity="bottom|right"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/main_activity_btn_setting"
+            style="@style/style_btn"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/settings"/>
+    </LinearLayout>
+
+    <com.board.testboard.ui.view.base.BottomBarView
+        android:id="@+id/main_activity_bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_alignParentBottom="true" />
+</LinearLayout>

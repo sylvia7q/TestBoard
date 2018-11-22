@@ -1,0 +1,185 @@
+<resources>
+    <string name="app_ico_name">Test</string>
+    <string name="app_name">Test</string>
+    <string name="topcee_copyright">All Rights Reserved</string>
+    <!--通用-->
+    <string name="prompt">prompt</string>
+    <string name="are_you_sure_logout">Are you sure to log out of the current user?</string>
+    <string name="are_you_sure_exit">Are you sure you want to exit the current program?</string>
+    <string name="btn_confirm">confirm</string>
+    <string name="btn_cancel">cancel</string>
+    <string name="btn_close">close</string>
+    <string name="btn_group">Grouping</string>
+    <string name="btn_all">all</string>
+    <string name="btn_back">back</string>
+    <string name="input">Entry</string>
+    <string name="clear">clear</string>
+    <string name="delete">delete</string>
+    <string name="search">search</string>
+    <string name="set">setting</string>
+    <string name="error">error</string>
+    <string name="save">save</string>
+    <string name="add">add</string>
+    <string name="loading_data">Data is loading...</string>
+    <string name="interface_returns_failed">The background interface returns data is empty, please try again!</string>
+    <string name="parse_error">Parsing interface [%1$s] data error, or no data return!</string>
+    <string name="name">first name</string>
+    <string name="role">role</string>
+    <!--自动更新-->
+    <string name="have_the_new_version_on_the_server_please_update">There is a new version on the server, please update!</string>
+    <string name="software_version_update">Software version update</string>
+    <string name="now_update">Update now</string>
+    <string name="later_update">talk about it later</string>
+    <string name="software_is_the_latest_version">The software is the latest version</string>
+    <string name="the_current_version">current version</string>
+    <string name="is_the_latest_version_no_need_to_update">Already the latest version, no need to update</string>
+    <string name="start_the_download">start download</string>
+    <string name="the_download_is_complete_click_install">Download completed, click to install.</string>
+    <string name="is_downloading">downloading...</string>
+    <!--设置-->
+    <string name="server_ip_set">Server ip settings</string>board
+    <string name="board_refresh_time_set">Whether the current time of the kanban is obtained from the server</string>
+    <string name="board_mc_code_select_set">Kanban device code selection</string>
+    <string name="smt_line_set">Line setting</string>
+    <string name="material_warning_set">Underage warning setting</string>
+    <string name="color_set">Color setting</string>
+    <string name="bulletin_board">Bulletin board setting</string>
+    <string name="bulletin_board_is_show">Show bulletin board</string>
+    <string name="dialog_material_warning_title">Online underage warning setting</string>
+    <string name="dialog_material_warning_left">Available ratio&#060;&#061;</string>
+    <string name="dialog_material_warning_right">&#037;Display (graphic),display</string>
+    <string name="dialog_material_warning_station">Station</string>
+    <string name="dialog_material_warning_set_empty">The default warning value cannot be empty</string>
+    <string name="dialog_material_warning_set_correct">The ratio of available warnings is between [0-100]!</string>
+    <string name="dialog_material_warning_station_set_correct">The early warning station is between [0-200]!</string>
+    <string name="exit">exit</string>
+    <string name="switch_user">Switch user</string>
+    <string name="zero">0</string>
+    <string name="setting">Setting</string>
+
+    <!--IP设置-->
+    <string name="ip_setting">IP settings</string>
+    <string name="ip_address">Server IP address</string>
+    <string name="input_ip_hint">Please enter IP</string>
+    <string name="ip_error">[%1$s] The IP format is incorrect and should be between 0-255!</string>
+    <string name="ip_error_not_a_valid_address">[%1$s] is not a valid IP address!</string>
+    <string name="ip_error_whole">Please enter the full IP address!</string>
+    <string name="port">Server port</string>
+    <string name="port_hint">Please enter the port</string>
+    <string name="port_error_whole">Port cannot be empty!</string>
+    <string name="ip_empty">Server IP address cannot be empty!</string>
+    <string name="port_empty">Port cannot be empty!</string>
+    <string name="port_isnum">Port must be a number!</string>
+    <string name="save_success">Successfully saved!</string>
+    <string name="please_set_ip">Please set the server IP address!</string>
+    <!--用户登录-->
+    <string name="prompt_user_no">please enter user name</string>
+    <string name="prompt_user_pwd">Please enter your password</string>
+    <string name="login">login</string>
+    <string name="logining">logging in...</string>
+    <string name="settings">settings</string>
+    <string name="save_pwd">Remember password</string>
+    <string name="auto_login">Automatic login</string>
+    <item name="has_power" type="id"></item>
+    <!--看板设备代码选择-->
+    <string name="get_kanban_mc_code_info">Get Kanban device code information</string>
+    <string name="no_selected_kanban_mc_code">Kanban device code not selected!</string>
+    <string name="select_the_kanban_mc_code">Check the kanban device code</string>
+    <string name="select_the_kanban_mc_code_empty">The selected Kanban device code [%1$s] does not exist. Please reselect the Kanban device code.</string>
+
+    <!--关于About-->
+    <string name="about">about</string>
+    <string name="about_version">version:</string>
+    <string name="about_url">test</string>
+    <string name="about_tel">test</string>
+    <string name="about_copyright">Copyright</string>
+
+    <!--线别设置-->
+    <string name="get_line_info">Get line information</string>
+    <string name="no_selected_lines">No line selected!</string>
+    <string name="select_the_line">Selected line</string>
+
+    <!--线别属性设置-->
+    <string name="line_attribute_set">%1$s Line attribute setting</string>
+    <string name="line_station_set">%1$s line station setting</string>
+    <string name="smt_station_set">Station setting</string>
+    <string name="line_display_time_set">%1$s Line display duration setting</string>
+    <string name="display_time_set">Display duration setting</string>
+    <string name="please_input_display_time">Please enter the length of the line.</string>
+    <string name="display_time_save_success">%1$sLine display time is set successfully!</string>
+    <string name="display_time_save_fail">%1$sLine display duration setting failed线别展示时长设置失败!</string>
+    <string name="display_time_is_null">Line display time cannot be set to empty!</string>
+    <string name="display_time_data">The [%1$s] line display duration is [%2$s seconds], you can long press to edit the duration of the line.</string>
+    <string name="display_time_data_is_null">The [%1$s] line display duration defaults to [%2$s seconds], you can long press to edit the display duration of the line.</string>
+    <string name="display_time_reminder">Line display time cannot be less than [%1$s seconds]!</string>
+    <string name="display_second">second</string>
+
+    <!--工站设置-->
+    <string name="line_station_setting">Station setting (SMT line board)</string>
+    <string name="line_station_not_null">Lines cannot be empty, please set the line first.!</string>
+    <string name="get_station_info">Get line information</string>
+    <string name="line_station_success">Successfully saved!</string>
+    <string name="line_station_fail">Save failed!</string>
+    <string name="please_select_station">Please select a station!</string>
+
+    <!--多线别设置-->
+    <string name="more_work_shop_line_setting">Line setting</string>
+    <string name="more_line_setting">Line setting</string>
+    <string name="more_line_success">Successfully saved!</string>
+    <string name="more_line_select_line">Please select a line!</string>
+
+
+    <!--菜单界面-->
+    <string name="menu_setting">Menu Settings</string>
+    <string name="auto">Automatic mode</string>
+    <string name="user_pattem_menu">Manual mode menu</string>
+    <string name="auto_state">(Turn on auto enter auto mode)</string>
+    <string name="show_template">Enter automatic mode</string>
+    <string name="return_undefined_template">Return undefined template</string>
+
+    <!-- 线看板 -->
+    <string name="smt_line_setting">Line kanban setting</string>
+    <string name="smt_line_board_customer">client</string>
+    <string name="smt_line_board_part_no">product code</string>
+    <string name="smt_line_board_wo">Order</string>
+    <string name="smt_line_board_wo_plan_qty">Number of orders</string>
+    <string name="smt_line_board_current_shift_total_qty">Current shift total output</string>
+    <string name="smt_line_board_production_schedule">production progress</string>
+    <string name="smt_line_board_shift_no">Shift(%1$s)</string>
+    <string name="smt_line_board_shift_time_begin_end">Time slot(%1$s)</string>
+    <string name="smt_line_input_qty">Number of inputs</string>
+    <string name="smt_line_output_qty">Number of outputs</string>
+    <string name="smt_line_time_production">Time production</string>
+    <string name="smt_line_missing_material_warning">Missing Material Warning</string>
+    <string name="smt_line_percentage_available">Available (percentage)</string>
+
+
+    <!--SMT车间看板-->
+    <string name="smt_total_setting">SMT workshop kanban setting</string>
+    <string name="smt_total_number">Serial number</string>
+    <string name="smt_total_line_no">Line</string>
+    <string name="smt_total_part_no">product no</string>
+    <string name="smt_total_wo">Order</string>
+    <string name="smt_total_wo_qty">Quantity</string>
+    <string name="smt_total_finishing_rate">Order completion rate</string>
+    <string name="smt_total_achieving_rate">Achieving rate</string>
+    <string name="smt_total_qty_output">Total line production</string>
+    <string name="smt_total_workstatus_name">Line status</string>
+
+    <!-- 线看板-颜色设置 -->
+    <string name="smt_line_color_set">Color setting</string>
+    <string name="smt_line_title_font_color_set">Title font color setting</string>
+    <string name="smt_line_other_font_color_set">Other font color settings</string>
+    <string name="smt_line_background_color_set">Background color setting</string>
+    <string name="smt_line_chart_background_color_set">Chart background box color set</string>
+    <string name="smt_line_chart_hour_product_color_set">Time production column color setting</string>
+    <string name="smt_line_chart_warn_color_set">Underfeed warning column color setting</string>
+    <string name="smt_line_table_title_color_set">Table title color setting</string>
+    <string name="smt_line_chart_product_color_set">Line capacity column color setting</string>
+    <string name="smt_line_default_color_set">Restore default color settings</string>
+    <string name="smt_line_production">Line production</string>
+
+    <string name="red">red</string>
+    <string name="green">green</string>
+    <string name="blue">blue</string>
+</resources>

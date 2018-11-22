@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/dialog_reminder_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="25sp"
+        android:paddingLeft="5dp"
+        android:textColor="@color/white"
+        android:gravity="center_vertical"
+        android:background="@color/blue"
+        android:text="ssss"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+        <TextView
+            android:id="@+id/dialog_reminder_message"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:text="aaaa"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/reminder_btn_layout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/dialog_reminder_btn_confirm"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_marginRight="2dp"
+            android:background="@drawable/btn_selector"
+            android:text="确定"/>
+        <Button
+            android:id="@+id/dialog_reminder_btn_cancel"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_marginLeft="3dp"
+            android:background="@drawable/btn_selector"
+            android:text="取消"/>
+    </LinearLayout>
+</LinearLayout>

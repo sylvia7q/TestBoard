@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- 服务器IP设置 -->
+            <RelativeLayout
+                android:id="@+id/rl_server_ip_set_layout"
+                style="@style/function_rl">
+
+                <ImageView
+                    android:id="@+id/iv_server_ip_set"
+                    style="@style/function_iv_left" />
+
+                <TextView
+                    android:id="@+id/tv_server_ip_msg"
+                    style="@style/function_tv"
+                    android:layout_toRightOf="@id/iv_server_ip_set"
+                    android:text="@string/server_ip_set" />
+
+                <ImageView
+                    android:id="@+id/iv_right_server_ip_set"
+                    style="@style/function_iv_right"/>
+            </RelativeLayout>
+
+            <!-- 线别设置 -->
+            <RelativeLayout
+                android:id="@+id/rl_smt_line_set_layout"
+                style="@style/function_rl">
+
+                <ImageView
+                    android:id="@+id/iv_smt_line_set"
+                    style="@style/function_iv_left"/>
+
+                <TextView
+                    android:id="@+id/tv_smt_line_set"
+                    style="@style/function_tv"
+                    android:layout_toRightOf="@id/iv_smt_line_set"
+                    android:text="@string/smt_line_set" />
+
+                <ImageView
+                    android:id="@+id/iv_right_smt_line_set"
+                    style="@style/function_iv_right"/>
+            </RelativeLayout>
+
+            <!-- 看板代码选择 -->
+            <RelativeLayout
+                android:id="@+id/rl_board_mc_code_select_layout"
+                style="@style/function_rl">
+
+                <ImageView
+                    android:id="@+id/iv_board_code_select_set"
+                    style="@style/function_iv_left" />
+
+                <TextView
+                    android:id="@+id/tv_board_code_select_set"
+                    style="@style/function_tv"
+                    android:layout_toRightOf="@id/iv_board_code_select_set"
+                    android:text="@string/board_mc_code_select_set" />
+
+                <ImageView
+                    android:id="@+id/iv_right_board_code_select_set"
+                    style="@style/function_iv_right" />
+            </RelativeLayout>
+
+            <!-- 多站位设置 -->
+            <RelativeLayout
+                android:id="@+id/rl_smt_station_set_layout"
+                style="@style/function_rl">
+
+                <ImageView
+                    android:id="@+id/iv_smt_station_set"
+                    style="@style/function_iv_left"/>
+
+                <TextView
+                    android:id="@+id/tv_smt_station_set"
+                    style="@style/function_tv"
+                    android:layout_toRightOf="@id/iv_smt_station_set"
+                    android:text="@string/smt_station_set" />
+
+                <ImageView
+                    android:id="@+id/iv_right_smt_station_set"
+                    style="@style/function_iv_right" />
+            </RelativeLayout>
+
+            <!-- 多线别设置 -->
+            <RelativeLayout
+                android:id="@+id/rl_smt_more_line_set_layout"
+                style="@style/function_rl">
+
+                <ImageView
+                    android:id="@+id/iv_smt_more_line_set"
+                    style="@style/function_iv_left"/>
+
+                <TextView
+                    android:id="@+id/tv_smt_more_line_set"
+                    style="@style/function_tv"
+                    android:layout_toRightOf="@id/iv_smt_more_line_set"
+                    android:text="@string/smt_line_set" />
+
+                <ImageView
+                    android:id="@+id/iv_right_smt_more_line_set"
+                    style="@style/function_iv_right" />
+            </RelativeLayout>
+
+            <!-- 欠料预警设置 -->
+            <RelativeLayout
+                android:id="@+id/rl_material_warning_set_layout"
+                style="@style/function_rl">
+
+                <ImageView
+                    android:id="@+id/iv_material_warning_set"
+                    style="@style/function_iv_left"/>
+
+                <TextView
+                    android:id="@+id/tv_material_warning_set"
+                    style="@style/function_tv"
+                    android:layout_toRightOf="@id/iv_material_warning_set"
+                    android:text="@string/material_warning_set" />
+
+                <ImageView
+                    android:id="@+id/iv_right_material_warning_set"
+                    style="@style/function_iv_right" />
+            </RelativeLayout>
+
+            <!-- 颜色设置 -->
+            <RelativeLayout
+                android:id="@+id/rl_color_set_layout"
+                style="@style/function_rl">
+
+                <ImageView
+                    android:id="@+id/iv_color_set"
+                    style="@style/function_iv_left"/>
+
+                <TextView
+                    android:id="@+id/tv_color_set"
+                    style="@style/function_tv"
+                    android:layout_toRightOf="@id/iv_color_set"
+                    android:text="@string/color_set" />
+
+                <ImageView
+                    android:id="@+id/iv_right_color_set"
+                    style="@style/function_iv_right" />
+            </RelativeLayout>
+            <!-- 菜单设置 -->
+            <RelativeLayout
+                android:id="@+id/rl_menu_set_layout"
+                style="@style/function_rl">
+
+                <ImageView
+                    android:id="@+id/iv_menu_set"
+                    style="@style/function_iv_left"/>
+
+                <TextView
+                    android:id="@+id/tv_menu_set"
+                    style="@style/function_tv"
+                    android:layout_toRightOf="@id/iv_menu_set"
+                    android:text="@string/menu_setting" />
+
+                <ImageView
+                    android:id="@+id/iv_right_menu_set"
+                    style="@style/function_iv_right" />
+            </RelativeLayout>
+
+            <!-- 设置 -->
+            <RelativeLayout
+                android:id="@+id/rl_set_layout"
+                style="@style/function_rl">
+
+                <ImageView
+                    android:id="@+id/iv_set"
+                    style="@style/function_iv_left"/>
+
+                <TextView
+                    android:id="@+id/tv_set"
+                    style="@style/function_tv"
+                    android:layout_toRightOf="@id/iv_set"
+                    android:text="@string/setting" />
+
+                <ImageView
+                    android:id="@+id/iv_right_set"
+                    style="@style/function_iv_right" />
+            </RelativeLayout>
+
+            <!-- 看板刷新时间设置 -->
+            <RelativeLayout
+                android:id="@+id/rl_cur_time_set"
+                style="@style/function_rl">
+
+                <ImageView
+                    android:id="@+id/iv_cur_time_set"
+                    style="@style/function_iv_left" />
+
+                <TextView
+                    android:id="@+id/tv_cur_time_set"
+                    style="@style/function_tv"
+                    android:layout_toRightOf="@id/iv_cur_time_set"
+                    android:text="@string/board_refresh_time_set" />
+
+                <CheckBox
+                    android:id="@+id/cb_right_cur_time_set"
+                    style="@style/function_iv_right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    />
+            </RelativeLayout>
+            <!-- 关于 -->
+            <RelativeLayout
+                android:id="@+id/rl_about_layout"
+                style="@style/function_rl">
+
+                <ImageView
+                    android:id="@+id/iv_customer_company_name_set"
+                    style="@style/function_iv_left" />
+
+                <TextView
+                    android:id="@+id/tv_customer_company_name_set"
+                    style="@style/function_tv"
+                    android:layout_toRightOf="@id/iv_customer_company_name_set"
+                    android:text="@string/about" />
+
+                <ImageView
+                    android:id="@+id/iv_right_company_name"
+                    style="@style/function_iv_right" />
+            </RelativeLayout>
+
+            <!-- 切换账号 -->
+            <RelativeLayout
+                android:id="@+id/rl_switch_user_layout"
+                style="@style/function_rl">
+
+                <ImageView
+                    android:id="@+id/iv_switch_user"
+                    style="@style/function_iv_left" />
+
+                <TextView
+                    android:id="@+id/tv_switch_user"
+                    style="@style/function_tv"
+                    android:layout_toRightOf="@id/iv_switch_user"
+                    android:text="@string/switch_user" />
+
+                <ImageView
+                    android:id="@+id/iv_right_switch_user"
+                    style="@style/function_iv_right"/>
+            </RelativeLayout>
+
+            <!-- 退出 -->
+            <RelativeLayout
+                android:id="@+id/rl_exit_layout"
+                style="@style/function_rl">
+
+                <ImageView
+                    android:id="@+id/iv_exit"
+                    style="@style/function_iv_left"/>
+
+                <TextView
+                    android:id="@+id/tv_exit"
+                    style="@style/function_tv"
+                    android:layout_toRightOf="@id/iv_exit"
+                    android:text="@string/exit" />
+
+                <ImageView
+                    android:id="@+id/iv_right_exit"
+                    style="@style/function_iv_right"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

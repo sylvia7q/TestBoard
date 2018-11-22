@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--登录标题框-->
+    <style name="style_activity_login_tv">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginLeft">@dimen/dimen_activity_login_width</item>
+        <item name="android:layout_marginRight">@dimen/dimen_activity_login_width</item>
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+    <!--登录框-->
+    <style name="style_activity_login_et">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_marginLeft">@dimen/dimen_activity_login_width</item>
+        <item name="android:layout_marginRight">@dimen/dimen_activity_login_width</item>
+        <item name="android:drawablePadding">8dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:background">@drawable/et_selector</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textColorPrimaryInverse">@android:color/primary_text_dark</item>
+    </style>
+
+    <!--登录选择框-->
+    <style name="style_activity_login_cb">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:checked">true</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+</resources>

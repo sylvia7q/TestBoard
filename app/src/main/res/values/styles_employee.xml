@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--人员头像-->
+    <style name="style_view_user_image">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:gravity">center</item>
+        <item name="android:src">@android:drawable/ic_menu_gallery</item>
+    </style>
+
+    <!-- 人员名字角色 -->
+    <style name="style_view_user_text">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/dimen_view_employee_role_size</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+</resources>

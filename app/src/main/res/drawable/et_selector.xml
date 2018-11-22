@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- state_window_focused “false”应用程序是否在前台，当有通知栏被拉下来或者一个对话框弹出的时候应用程序就不在前台了 -->
+    <!-- state_pressed “true”表示按下状态使用(例如按钮按下) -->
+    <!-- state_focused “true”表示聚焦状态使用(例如使用滚动球/D-pad聚焦Button) -->
+    <!-- state_selected “true”表示选中状态使用(例如Tab 打开) -->
+    <!-- state_enabled “true”表示可用状态使用(能接收触摸/点击事件) -->
+        <item android:state_window_focused="false" android:drawable="@drawable/et_input_bg_focused_gray" />
+        <item android:state_focused="true" android:drawable="@drawable/et_input_bg_focused_blue" />
+</selector>

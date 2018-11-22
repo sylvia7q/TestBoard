@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="20dp"
+    android:paddingLeft="100dp"
+    android:paddingRight="100dp"
+    android:layout_gravity="left|center"
+    android:orientation="vertical">
+
+    <!-- 服务器IP地址 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/ip_address"
+            android:textSize="18sp"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+    <!-- 服务器IP地址 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:gravity="bottom"
+        android:background="@drawable/et_selector">
+        <EditText
+            android:id="@+id/ed_ip_1"
+            style="@style/style_activity_ip_et"/>
+        <TextView
+            style="@style/style_activity_ip_point" />
+        <EditText
+            android:id="@+id/ed_ip_2"
+            style="@style/style_activity_ip_et"/>
+        <TextView
+            style="@style/style_activity_ip_point" />
+        <EditText
+            android:id="@+id/ed_ip_3"
+            style="@style/style_activity_ip_et"/>
+        <TextView
+            style="@style/style_activity_ip_point" />
+        <EditText
+            android:id="@+id/ed_ip_4"
+            style="@style/style_activity_ip_et"/>
+    </LinearLayout>
+
+    <!-- 服务器端口 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/port"
+            android:textColor="@color/black"
+            android:textSize="18sp"/>
+    </LinearLayout>
+
+    <!-- 服务器端口 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:gravity="bottom"
+        android:background="@drawable/et_selector">
+        <EditText
+            android:id="@+id/ed_port"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="5dp"
+            android:textSize="@dimen/dimen_ip_text_size"
+            android:textColor="@color/black"
+            android:background="@drawable/et_selector"
+            android:inputType="number"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/btn_save"
+        style="@style/style_btn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/save"/>
+</LinearLayout>

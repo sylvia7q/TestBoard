@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <!-- 背景颜色设置-->
+    <!-- 标题-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:textSize="16sp"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+    <!-- 显示背景颜色 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginRight="55dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tv_group_title1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"/>
+        <TextView
+            android:id="@+id/tv_show_background_color1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"/>
+    </LinearLayout>
+    <!-- 红色 -->
+    <LinearLayout
+        style="@style/style_dialog_set_color_layout">
+        <TextView
+            style="@style/style_dialog_set_color_tv"
+            android:text="@string/red"/>
+
+        <SeekBar
+            android:id="@+id/progress_red1"
+            style="@style/style_dialog_set_color_seek_bar"  />
+
+        <TextView
+            android:id="@+id/tv_red_data1"
+            style="@style/style_dialog_set_color_tv"
+            android:padding="1dp"
+            android:text="@string/zero" />
+
+    </LinearLayout>
+    <!-- 绿色 -->
+    <LinearLayout
+        style="@style/style_dialog_set_color_layout"
+        android:layout_marginTop="5dp">
+        <TextView
+            style="@style/style_dialog_set_color_tv"
+            android:text="@string/green"/>
+
+        <SeekBar
+            android:id="@+id/progress_green1"
+            style="@style/style_dialog_set_color_seek_bar" />
+
+        <TextView
+            android:id="@+id/tv_green_data1"
+            style="@style/style_dialog_set_color_tv"
+            android:padding="1dp"
+            android:text="@string/zero" />
+
+    </LinearLayout>
+    <!-- 蓝色 -->
+    <LinearLayout
+        style="@style/style_dialog_set_color_layout"
+        android:layout_marginTop="5dp">
+        <TextView
+            style="@style/style_dialog_set_color_tv"
+            android:text="@string/blue"/>
+
+        <SeekBar
+            android:id="@+id/progress_blue1"
+            style="@style/style_dialog_set_color_seek_bar"  />
+
+        <TextView
+            android:id="@+id/tv_blue_data1"
+            style="@style/style_dialog_set_color_tv"
+            android:padding="1dp"
+            android:text="@string/zero" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll_group2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <!-- 显示背景颜色 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginLeft="55dp"
+            android:layout_marginRight="55dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/tv_group_title2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"/>
+            <TextView
+                android:id="@+id/tv_show_background_color2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"/>
+        </LinearLayout>
+        <!-- 红色 -->
+        <LinearLayout
+            style="@style/style_dialog_set_color_layout">
+            <TextView
+                style="@style/style_dialog_set_color_tv"
+                android:text="@string/red"/>
+
+            <SeekBar
+                android:id="@+id/progress_red2"
+                style="@style/style_dialog_set_color_seek_bar" />
+
+            <TextView
+                android:id="@+id/tv_red_data2"
+                style="@style/style_dialog_set_color_tv"
+                android:padding="1dp"
+                android:text="@string/zero" />
+
+        </LinearLayout>
+        <!-- 绿色 -->
+        <LinearLayout
+            style="@style/style_dialog_set_color_layout"
+            android:layout_marginTop="5dp">
+            <TextView
+                style="@style/style_dialog_set_color_tv"
+                android:text="@string/green"/>
+
+            <SeekBar
+                android:id="@+id/progress_green2"
+                style="@style/style_dialog_set_color_seek_bar"  />
+
+            <TextView
+                android:id="@+id/tv_green_data2"
+                style="@style/style_dialog_set_color_tv"
+                android:padding="1dp"
+                android:text="@string/zero" />
+
+        </LinearLayout>
+        <!-- 蓝色 -->
+        <LinearLayout
+            style="@style/style_dialog_set_color_layout"
+            android:layout_marginTop="5dp">
+            <TextView
+                style="@style/style_dialog_set_color_tv"
+                android:text="@string/blue"/>
+
+            <SeekBar
+                android:id="@+id/progress_blue2"
+                style="@style/style_dialog_set_color_seek_bar"  />
+
+            <TextView
+                android:id="@+id/tv_blue_data2"
+                style="@style/style_dialog_set_color_tv"
+                android:padding="1dp"
+                android:text="@string/zero" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- 确定/取消 -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal">
+        <!-- 确定 -->
+        <Button
+            android:id="@+id/btn_confirm"
+            style="@style/style_btn"
+            android:layout_width="80dp"
+            android:layout_centerInParent="true"
+            android:text="@string/btn_confirm" />
+
+        <!-- 取消 -->
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_toRightOf="@+id/btn_confirm"
+            style="@style/style_btn"
+            android:layout_width="80dp"
+            android:text="@string/btn_cancel"
+            android:layout_marginLeft="20dp"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+</LinearLayout>

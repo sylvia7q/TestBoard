@@ -1,0 +1,186 @@
+<resources>
+    <string name="app_ico_name">Test</string>
+    <string name="app_name">Test</string>
+    <string name="topcee_copyright">版權所有</string>
+    <!--通用-->
+    <string name="prompt">提示</string>
+    <string name="are_you_sure_logout">您確定是否註銷當前用戶?</string>
+    <string name="are_you_sure_exit">您确定要退出当前程序吗?</string>
+    <string name="btn_confirm">確定</string>
+    <string name="btn_cancel">取消</string>
+    <string name="btn_close">關閉</string>
+    <string name="btn_group">分組</string>
+    <string name="btn_all">全部</string>
+    <string name="btn_back">返回</string>
+    <string name="input">錄入</string>
+    <string name="clear">清空</string>
+    <string name="delete">刪除</string>
+    <string name="search">搜索</string>
+    <string name="set">設置</string>
+    <string name="error">錯誤</string>
+    <string name="save">保存</string>
+    <string name="add">添加</string>
+    <string name="loading_data">數據正在加載中...</string>
+    <string name="interface_returns_failed">后台接口返回数据为空,请重试!</string>
+    <string name="parse_error">解析接口[%1$s]數據錯誤,或者沒有數據返回!</string>
+    <string name="name">名字</string>
+    <string name="role">崗位</string>
+    <!--自动更新-->
+    <string name="have_the_new_version_on_the_server_please_update">服務器上有新版本,請更新!</string>
+    <string name="software_version_update">軟件版本更新</string>
+    <string name="now_update">現在更新</string>
+    <string name="later_update">以後再說</string>
+    <string name="software_is_the_latest_version">軟件已是最新版本</string>
+    <string name="the_current_version">當前版本</string>
+    <string name="is_the_latest_version_no_need_to_update">已是最新版,無需更新</string>
+    <string name="start_the_download">開始下載</string>
+    <string name="the_download_is_complete_click_install">下載完成,點擊安裝.</string>
+    <string name="is_downloading">正在下载...</string>
+    <!--设置-->
+    <string name="server_ip_set">服務器IP設置</string>board
+    <string name="board_refresh_time_set">看板當前時間是否從服務器獲取</string>
+    <string name="board_mc_code_select_set">看板設備代碼選擇</string>
+    <string name="smt_line_set">線別設置</string>
+    <string name="material_warning_set">欠料預警設置</string>
+    <string name="color_set">颜色设置</string>
+    <string name="bulletin_board">公告欄設置</string>
+    <string name="bulletin_board_is_show">顯示公告欄</string>
+    <string name="dialog_material_warning_title">在線欠料預警設置</string>
+    <string name="dialog_material_warning_left">可用比例&#060;&#061;</string>
+    <string name="dialog_material_warning_right">&#037;顯示(圖形),顯示</string>
+    <string name="dialog_material_warning_station">個站位</string>
+    <string name="dialog_material_warning_set_empty">欠料預警值不能為空</string>
+    <string name="dialog_material_warning_set_correct">欠料预警可用比例在[0-100]之间!</string>
+    <string name="dialog_material_warning_station_set_correct">欠料預警站位在[0-200]之間!</string>
+    <string name="exit">退出</string>
+    <string name="switch_user">切換用戶</string>
+    <string name="zero">0</string>
+    <string name="setting">設置</string>
+
+    <!--IP设置-->
+    <string name="ip_setting">IP設置</string>
+    <string name="ip_address">服務器IP地址</string>
+    <string name="input_ip_hint">請輸入IP</string>
+    <string name="ip_error">[%1$s]IP格式不正確,應在0-255之間!</string>
+    <string name="ip_error_not_a_valid_address">[%1$s]不是有效IP地址!</string>
+    <string name="ip_error_whole">請輸入完整的IP地址!</string>
+    <string name="port">服务器端口</string>
+    <string name="port_hint">請輸入端口</string>
+    <string name="port_error_whole">端口不能為空!</string>
+    <string name="ip_empty">服務器IP地址不能為空!</string>
+    <string name="port_empty">端口不能為空!</string>
+    <string name="port_isnum">端口必须为数字!</string>
+    <string name="save_success">保存成功!</string>
+    <string name="please_set_ip">請設置服務器IP地址!</string>
+    <!--用户登录-->
+    <string name="prompt_user_no">請輸入用戶名</string>
+    <string name="prompt_user_pwd">请输入密码</string>
+    <string name="login">登        錄</string>
+    <string name="logining">登錄中...</string>
+    <string name="settings">設置</string>
+    <string name="save_pwd">記住密碼</string>
+    <string name="auto_login">自動登陸</string>
+    <item name="has_power" type="id"></item>
+    <!--看板设备代码选择-->
+    <string name="get_kanban_mc_code_info">獲取看板設備代碼信息</string>
+    <string name="no_selected_kanban_mc_code">沒有選中看板設備代碼!</string>
+    <string name="select_the_kanban_mc_code">選中看板設備代碼</string>
+    <string name="select_the_kanban_mc_code_empty">已選擇的看板設備代碼[%1$s]不存在，請重新選擇看板設備代碼</string>
+
+    <!--关于About-->
+    <string name="about">關於</string>
+    <string name="about_version">版本:</string>
+    <string name="about_url">Test</string>
+    <string name="about_tel">Test</string>
+    <string name="about_copyright">版權所有</string>
+
+    <!--线别设置-->
+    <string name="get_line_info">獲取線別信息</string>
+    <string name="no_selected_lines">沒有選中線別!</string>
+    <string name="select_the_line">選中線別</string>
+
+    <!--线别属性设置-->
+    <string name="line_attribute_set">%1$s線別屬性設置</string>
+    <string name="line_station_set">%1$s線別站位設置</string>
+    <string name="smt_station_set">站位設置</string>
+    <string name="line_display_time_set">%1$s線別展示時長設置</string>
+    <string name="display_time_set">展示時長設置</string>
+    <string name="display_time_data">[%1$s]線別展示時長為[%2$s秒],可長按編輯該線別的展示時長</string>
+    <string name="display_time_data_is_null">[%1$s]線別展示時長默認為[%2$s秒],可長按編輯該線別的展示時長</string>
+    <string name="please_input_display_time">請輸入線別展示時長(單位:秒)</string>
+    <string name="display_time_save_success">%1$s線別展示時長設置成功!</string>
+    <string name="display_time_save_fail">%1$s線別展示時長設置失敗!</string>
+    <string name="display_time_is_null">線別展示時長不能設置為空!</string>
+    <string name="display_time_reminder">線別展示時長不能小於[%1$s秒]!</string>
+    <string name="display_second">秒</string>
+
+    <!--工序设置-->
+    <string name="line_station_setting">工序設置(SMT線看板)</string>
+    <string name="line_station_not_null">線別不能為空，請先設置線別!</string>
+    <string name="get_station_info">獲取線別信息</string>
+    <string name="line_station_success">保存成功!</string>
+    <string name="line_station_fail">保存失敗!</string>
+    <string name="please_select_station">請選擇工序!</string>
+
+    <!--多线别设置-->
+    <string name="more_work_shop_line_setting">線別設置</string>
+    <string name="more_line_setting">線別設置</string>
+    <string name="more_line_success">保存成功!</string>
+    <string name="more_line_select_line">請選擇線別!</string>
+
+
+    <!--菜单界面-->
+    <string name="menu_setting">菜單設置</string>
+    <string name="auto">自動運行</string>
+    <string name="user_pattem_menu">手動模式菜單</string>
+    <string name="auto_state">(說明:打開自動進入自動模式)</string>
+    <string name="show_template">進入自動模式</string>
+    <string name="return_undefined_template">返回未定義的模板</string>
+
+    <!-- 线看板 -->
+    <string name="smt_line_setting">線看板設置</string>
+    <string name="smt_line_board_customer">客戶</string>
+    <string name="smt_line_board_part_no">產品號</string>
+    <string name="smt_line_board_wo">制令單</string>
+    <string name="smt_line_board_wo_plan_qty">制令單數量</string>
+    <string name="smt_line_board_current_shift_total_qty">當前班次總產量</string>
+    <string name="smt_line_board_production_schedule">生產進度</string>
+    <string name="smt_line_board_shift_no">班次(%1$s)</string>
+    <string name="smt_line_board_shift_time_begin_end">時段(%1$s)</string>
+    <string name="smt_line_input_qty">投入數</string>
+    <string name="smt_line_output_qty">產出數</string>
+    <string name="smt_line_time_production">時段產量</string>
+    <string name="smt_line_missing_material_warning">欠料預警</string>
+    <string name="smt_line_percentage_available">可用(百分比)</string>
+
+    <!--SMT车间看板-->
+    <string name="smt_total_setting">SMT車間看板設置</string>
+    <string name="smt_total_number">序號</string>
+    <string name="smt_total_line_no">線別</string>
+    <string name="smt_total_part_no">產品號</string>
+    <string name="smt_total_wo">制令單</string>
+    <string name="smt_total_wo_qty">數量</string>
+    <string name="smt_total_finishing_rate">制令單完成率</string>
+    <string name="smt_total_achieving_rate">達成率</string>
+    <string name="smt_total_qty_output">線體總產量</string>
+    <string name="smt_total_workstatus_name">線體狀態</string>
+    <string name="smt_line_production">線別產能</string>
+
+    <!-- 线看板-颜色设置 -->
+    <string name="smt_line_color_set">顏色設置</string>
+    <string name="smt_line_title_font_color_set">標題字體顏色設置</string>
+    <string name="smt_line_other_font_color_set">其它字體顏色設置</string>
+    <string name="smt_line_background_color_set">背景顏色設置</string>
+    <string name="smt_line_chart_background_color_set">圖表背景框顏色設置</string>
+    <string name="smt_line_chart_hour_product_color_set">時段產量柱形顏色設置</string>
+    <string name="smt_line_chart_warn_color_set">欠料預警柱形顏色設置</string>
+
+    <string name="smt_line_table_title_color_set">表格標題顏色設置</string>
+    <string name="smt_line_chart_product_color_set">線別產能柱形顏色設置</string>
+
+    <string name="smt_line_default_color_set">恢復默認顏色設置</string>
+
+    <string name="red">红色</string>
+    <string name="green">綠色</string>
+    <string name="blue">藍色</string>
+</resources>

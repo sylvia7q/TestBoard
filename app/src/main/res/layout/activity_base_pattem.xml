@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activity.base.TitlebarBaseActivity"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/activity_template_ll_whole_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="@color/doov_background"
+        android:orientation="vertical">
+        <com.board.testboard.ui.view.base.TitleBarView
+            android:id="@+id/activity_template_menu_title"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:visibility="gone"/>
+        <com.board.testboard.ui.view.module.TitleView
+            android:id="@+id/activity_template_title"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <LinearLayout
+                android:id="@+id/activity_template_module_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+            </LinearLayout>
+            <com.board.testboard.ui.view.module.MarqueeView
+                android:id="@+id/view_bottom_tv_bulletin_horizontal_scroll"
+                app:textColor="@color/white"
+                app:textSize="25sp"
+                app:startPoint="end"
+                app:isRepeat="true"
+                app:direction="left"
+                app:speed="80"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="center_vertical"/>
+        </RelativeLayout>
+
+        <com.board.testboard.ui.view.module.BottomView
+            android:id="@+id/activity_template_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"/>
+    </LinearLayout>
+
+</LinearLayout>

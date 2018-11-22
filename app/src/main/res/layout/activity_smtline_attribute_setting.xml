@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.activity.base.module.LineAttributeSettingActivity">
+    <!-- 多站位设置 -->
+    <RelativeLayout
+        android:id="@+id/rl_smt_station_set_layout"
+        style="@style/function_rl"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/iv_smt_station_set"
+            style="@style/function_iv_left"/>
+
+        <TextView
+            android:id="@+id/tv_smt_station_set"
+            style="@style/function_tv"
+            android:layout_toRightOf="@id/iv_smt_station_set"
+            android:text="@string/smt_station_set" />
+        <TextView
+            android:id="@+id/tv_smt_station_set_show"
+            style="@style/function_tv_show"
+            android:layout_toLeftOf="@id/iv_right_smt_station_set" />
+        <ImageView
+            android:id="@+id/iv_right_smt_station_set"
+            style="@style/function_iv_right" />
+    </RelativeLayout>
+
+    <!-- 线别展示时间设置 -->
+    <RelativeLayout
+        android:id="@+id/rl_display_time_set"
+        style="@style/function_rl"
+        android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/iv_display_time_set"
+            style="@style/function_iv_left" />
+
+        <TextView
+            android:id="@+id/tv_display_time_set"
+            style="@style/function_tv"
+            android:layout_toRightOf="@id/iv_display_time_set"
+            android:text="@string/display_time_set" />
+        <TextView
+            android:id="@+id/tv_display_time_set_show"
+            style="@style/function_tv_show"
+            android:layout_toLeftOf="@id/iv_right_display_time_set" />
+        <ImageView
+            android:id="@+id/iv_right_display_time_set"
+            style="@style/function_iv_right" />
+    </RelativeLayout>
+</LinearLayout>

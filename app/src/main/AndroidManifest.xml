@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.board.testboard">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION"
+        tools:ignore="ProtectedPermissions" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ui.activity.main.MainActivity"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- 登陆界面 -->
+        <activity
+            android:name=".ui.activity.main.LoginActivity"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <!-- 设置 -->
+        <activity
+            android:name=".ui.activity.base.set.SettingActivity"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <!-- IP设置 -->
+        <activity
+            android:name=".ui.activity.base.IpSetActivity"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <!-- 看板设备代码选择 -->
+        <activity
+            android:name=".ui.activity.base.module.KanBanMCActivity"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <!-- 关于设置 -->
+        <activity
+            android:name=".ui.activity.base.AboutActivity"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <!-- 模板菜单设置 -->
+        <activity
+            android:name=".ui.activity.base.PattemMenuActivity"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <!-- 工站设置 -->
+        <activity
+            android:name=".ui.activity.base.module.LineStationSettingActivity"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <!-- 线看板多线别设置 -->
+        <activity
+            android:name=".ui.activity.base.module.SMTLineSettingActivity"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <!-- 车间看板多线别设置 -->
+        <activity
+            android:name=".ui.activity.base.module.WorkshopLineSettingActivity"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <!-- 线看板 -->
+        <activity
+            android:name=".ui.activity.pattem.SMTLineBoardActivity"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <!-- 线看板设置 -->
+        <activity
+            android:name=".ui.activity.base.set.SettingSMTLineBoardActivity"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <!-- 车间看板 -->
+        <activity
+            android:name=".ui.activity.base.set.SettingSMTWorkShopBoardActivity"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <!-- 车间看板设置 -->
+        <activity
+            android:name=".ui.activity.pattem.SMTWorkShopBoardActivity"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity android:name=".ui.activity.base.module.LineAttributeSettingActivity"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity android:name=".ui.activity.base.module.LineDisplayTimeSettingActivity"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="adjustPan|stateHidden"></activity>
+        <!-- 定时服务 -->
+        <service android:name=".http.SMTLineAlarmService" />
+        <service android:name=".http.SMTTotalAlarmService" />
+
+        <!-- 定时广播 -->
+        <receiver android:name=".http.SMTLineAlarmReceiver" />
+        <receiver android:name=".http.SMTTotalAlarmReceiver" />
+    </application>
+
+</manifest>

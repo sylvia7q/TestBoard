@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--公告栏滚动-->
+    <declare-styleable name="MarqueeView">
+        <attr name="textSize" format="dimension"/>
+        <attr name="textColor" format="color"/>
+        <attr name="marqueebackground" format="color"/>
+        <attr name="isRepeat" format="boolean"/>
+        <attr name="startPoint" format="enum">
+            <enum name="start" value="0" />
+            <enum name="end" value="1" />
+        </attr>
+        <attr name="direction" format="enum">
+            <enum name="left" value="0" />
+            <enum name="right" value="1" />
+        </attr>
+        <attr name="speed" format="integer"/>
+    </declare-styleable>
+
+    <string-array name="template_code" >
+        <item>SMT_LINE_BOARD_V1</item><!--用于doov-->
+        <item>SMT_WORKSHOP_BOARD_V1</item><!--用于doov-->
+    </string-array>
+
+    <string-array name="template_name">
+        <item>com.board.testboard.ui.activity.pattem.SMTLineBoardActivity</item>
+        <item>com.board.testboard.ui.activity.pattem.SMTWorkShopBoardActivity</item>
+    </string-array>
+</resources>

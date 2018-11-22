@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:id="@+id/ll_show">
+    <View style="@style/style_view_workshop_vertical"/>
+    <!-- 序号 -->
+    <TextView
+        android:id="@+id/tv_number"
+        style="@style/style_view_workshop_content"
+        android:layout_weight="0.2" />
+
+    <View style="@style/style_view_workshop_vertical"/>
+    <!-- 线别 -->
+    <TextView
+        android:id="@+id/tv_line_no"
+        style="@style/style_view_workshop_content"
+        android:layout_weight="0.5" />
+    <View style="@style/style_view_workshop_vertical"/>
+
+    <!-- 产品 -->
+    <TextView
+        android:id="@+id/tv_part_no"
+        style="@style/style_view_workshop_content"
+        android:layout_weight="1.5"/>
+    <View style="@style/style_view_workshop_vertical"/>
+
+    <!-- 制令单 -->
+    <TextView
+        android:id="@+id/tv_wo"
+        style="@style/style_view_workshop_content"
+        android:layout_weight="1"/>
+
+    <View style="@style/style_view_workshop_vertical"/>
+    <!-- 数量 -->
+    <TextView
+        android:id="@+id/tv_wo_qty_plan"
+        style="@style/style_view_workshop_content"
+        android:gravity="right"
+        android:layout_weight="0.35"/>
+    <View style="@style/style_view_workshop_vertical"/>
+
+    <!-- 制令单完成率 -->
+    <TextView
+        android:id="@+id/tv_finishing_rate"
+        style="@style/style_view_workshop_content"
+        android:gravity="right"
+        android:layout_weight="0.6"/>
+    <View style="@style/style_view_workshop_vertical"/>
+
+    <!-- 产能达成率 -->
+    <TextView
+        android:id="@+id/tv_achieving_rate"
+        style="@style/style_view_workshop_content"
+        android:gravity="right"
+        android:layout_weight="0.35"/>
+    <View style="@style/style_view_workshop_vertical"/>
+    <!-- 线体总产量 --><!--add by long on 2018/06/26-->
+    <TextView
+        android:id="@+id/tv_qty_output"
+        style="@style/style_view_workshop_content"
+        android:visibility="gone"
+        android:layout_weight="0.6"/>
+    <View style="@style/style_view_workshop_vertical"
+        android:visibility="gone"/>
+    <!-- 线别状态 -->
+    <TextView
+        android:id="@+id/tv_workstatus_name"
+        style="@style/style_view_workshop_content"
+        android:layout_weight="0.4" />
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="style_dialog_set_color_tv">
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <!--wo小标题-->
+    <style name="style_dialog_set_color_seek_bar">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:maxHeight">2dp</item>
+        <item name="android:minHeight">2dp</item>
+        <item name="android:max">255</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:paddingTop">3dp</item>
+        <item name="android:paddingBottom">3dp</item>
+        <item name="android:progressDrawable">@drawable/color_setting_layer_progress</item>
+        <item name="android:thumb">@drawable/color_setting_shape_circle</item>
+    </style>
+
+    <!-- wo内容 -->
+    <style name="style_dialog_set_color_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+</resources>

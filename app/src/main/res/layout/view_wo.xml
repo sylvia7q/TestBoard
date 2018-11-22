@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:id="@+id/view_wo_ll_bg">
+
+    <!--客户-->
+    <LinearLayout
+        style="@style/style_view_wo_layout">
+        <TextView
+            android:id="@+id/txt_customer"
+            style="@style/style_view_wo_title"
+            android:text="@string/smt_line_board_customer"/>
+        <TextView
+            android:id="@+id/tv_customer"
+            style="@style/style_view_wo_content"/>
+    </LinearLayout>
+    <!--产品号-->
+    <LinearLayout
+        style="@style/style_view_wo_layout">
+        <TextView
+            android:id="@+id/txt_part_no"
+            style="@style/style_view_wo_title"
+            android:text="@string/smt_line_board_part_no"/>
+        <TextView
+            android:id="@+id/tv_part_no"
+            style="@style/style_view_wo_content"/>
+    </LinearLayout>
+    <!--制令单-->
+    <LinearLayout
+        style="@style/style_view_wo_layout">
+        <TextView
+            android:id="@+id/txt_wo"
+            style="@style/style_view_wo_title"
+            android:text="@string/smt_line_board_wo"/>
+        <TextView
+            android:id="@+id/tv_wo"
+            style="@style/style_view_wo_content"/>
+    </LinearLayout>
+    <!--制令单数量-->
+    <LinearLayout
+        style="@style/style_view_wo_layout">
+        <TextView
+            android:id="@+id/txt_wo_plan_qty"
+            style="@style/style_view_wo_title"
+            android:text="@string/smt_line_board_wo_plan_qty"/>
+        <TextView
+            android:id="@+id/tv_wo_plan_qty"
+            style="@style/style_view_wo_content"/>
+    </LinearLayout>
+    <!-- 当前班次总产量 -->
+    <LinearLayout
+        style="@style/style_view_wo_layout"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/txt_current_shift_total_qty"
+            style="@style/style_view_wo_title"
+            android:text="@string/smt_line_board_current_shift_total_qty"
+           />
+
+        <TextView
+            android:id="@+id/tv_current_shift_total_qty"
+            style="@style/style_view_wo_content"/>
+
+    </LinearLayout>
+    <!--生产进度-->
+    <LinearLayout
+        style="@style/style_view_wo_layout">
+        <TextView
+            android:id="@+id/txt_production_schedule"
+            style="@style/style_view_wo_title"
+            android:text="@string/smt_line_board_production_schedule"/>
+        <TextView
+            android:id="@+id/tv_production_schedule"
+            style="@style/style_view_wo_content"/>
+    </LinearLayout>
+    <!-- 生产进度-进度条 -->
+    <RelativeLayout
+        style="@style/style_view_wo_layout">
+
+        <ProgressBar
+            android:id="@+id/tv_progressbar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:max="100"
+            android:progressDrawable="@drawable/progressbar_bg"/>
+
+        <TextView
+            android:id="@+id/tv_progressbar_data"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="0%"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants">
+    <LinearLayout
+        android:id="@+id/item_list_kan_ban_code_ll_select"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:background="@drawable/layout_bg_selector">
+        <TextView
+            android:id="@+id/item_list_kan_ban_code_select_chs"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="模板"
+            android:textSize="@dimen/dimen_menu_list_size"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:textColor="@color/blue"
+            />
+        <RadioButton
+            android:id="@+id/item_list_kan_ban_code_select_name_rbutton"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:focusable="false"
+            android:enabled="false"
+            android:gravity="center"/>
+    </LinearLayout>
+</LinearLayout>
