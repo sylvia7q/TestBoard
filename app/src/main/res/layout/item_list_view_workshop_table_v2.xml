@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:id="@+id/ll_list">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        <!-- 序号 -->
+        <TextView
+            android:id="@+id/tv_number"
+            style="@style/style_view_workshop_content"
+            android:layout_weight="0.2"
+            android:gravity="center"/>
+        <View style="@style/style_view_workshop_vertical"/>
+        <!-- 线别 -->
+        <TextView
+            android:id="@+id/tv_line_no"
+            style="@style/style_view_workshop_content"
+            android:layout_weight="0.5" />
+        <View style="@style/style_view_workshop_vertical"/>
+        <!-- 产品 -->
+        <TextView
+            android:id="@+id/tv_custom"
+            style="@style/style_view_workshop_content"
+            android:layout_weight="0.5"/>
+        <View style="@style/style_view_workshop_vertical"/>
+        <!-- 制令单 -->
+        <TextView
+            android:id="@+id/tv_wo"
+            style="@style/style_view_workshop_content"
+            android:layout_weight="1"/>
+        <View style="@style/style_view_workshop_vertical"/>
+        <!-- 批量 -->
+        <TextView
+            android:id="@+id/tv_batch"
+            style="@style/style_view_workshop_content"
+            android:gravity="right|center_vertical"
+            android:layout_weight="0.35"/>
+        <View style="@style/style_view_workshop_vertical"/>
+        <!-- 投产数 -->
+        <TextView
+            android:id="@+id/tv_commissioning_number"
+            style="@style/style_view_workshop_content"
+            android:gravity="right|center_vertical"
+            android:layout_weight="0.35"/>
+        <View style="@style/style_view_workshop_vertical"/>
+        <!-- aoi良率 -->
+        <TextView
+            android:id="@+id/tv_aoi_good_rate"
+            style="@style/style_view_workshop_content"
+            android:gravity="right|center_vertical"
+            android:layout_weight="0.35"/>
+        <View style="@style/style_view_workshop_vertical"/>
+        <!-- 生产状态 -->
+        <TextView
+            android:id="@+id/tv_production_state"
+            style="@style/style_view_workshop_content"
+            android:gravity="center"
+            android:layout_weight="0.4" />
+    </LinearLayout>
+
+</LinearLayout>

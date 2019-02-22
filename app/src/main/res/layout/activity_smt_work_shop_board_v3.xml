@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.activity.pattem.SMTWorkShopBoardV3Activity">
+    <RelativeLayout
+        style="@style/style_smt_line_board_layout"
+        android:background="@drawable/layout_bg">  
+        <com.topcee.kanban.ui.view.module.WorkshopTableViewV3
+            android:id="@+id/activity_workshop_board_view_table"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </com.topcee.kanban.ui.view.module.WorkshopTableViewV3>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/activity_workshop_board_view_line_production_layout"
+        style="@style/style_smt_line_board_layout"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/layout_bg">
+        <com.topcee.kanban.ui.view.module.MultiaxialLineNoProduction
+            android:id="@+id/activity_workshop_board_view_line_production"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </com.topcee.kanban.ui.view.module.MultiaxialLineNoProduction>
+    </RelativeLayout>
+</LinearLayout>

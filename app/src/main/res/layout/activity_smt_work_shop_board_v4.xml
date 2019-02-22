@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.activity.pattem.SMTWorkShopBoardV2Activity">
+    <RelativeLayout
+        style="@style/style_smt_line_board_layout"
+        android:background="@drawable/layout_bg">
+        <com.topcee.kanban.ui.view.module.WorkshopTableViewV2
+            android:id="@+id/activity_workshop_board_view_table_v2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </com.topcee.kanban.ui.view.module.WorkshopTableViewV2>
+    </RelativeLayout>
+</RelativeLayout>

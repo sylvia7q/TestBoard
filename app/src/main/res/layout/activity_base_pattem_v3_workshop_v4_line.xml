@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activity.pattem.BasePattemV3WorkshopV4LineActivity"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/activity_template_ll_whole_bg_custom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="@color/doov_background"
+        android:orientation="vertical">  
+        <com.topcee.kanban.ui.view.base.TitleBarView
+            android:id="@+id/activity_template_menu_title_custom"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:visibility="gone"/>
+        <com.topcee.kanban.ui.view.module.TitleViewV3Line
+            android:id="@+id/activity_template_title_custom"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"/>
+        <LinearLayout
+            android:id="@+id/activity_template_module_content_custom"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+        </LinearLayout>
+        <com.topcee.kanban.ui.view.module.BottomView
+            android:id="@+id/activity_template_bottom_custom"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"/>
+    </LinearLayout>
+
+</LinearLayout>

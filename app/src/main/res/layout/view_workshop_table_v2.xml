@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!-- 标题 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center_vertical"
+        android:background="@color/total_board_title_bg"
+        android:orientation="horizontal">
+        <!-- 序号 -->
+        <TextView
+            android:id="@+id/view_workshop_table_txt_number"
+            style="@style/style_view_workshop_title"
+            android:layout_weight="0.2"
+            android:text="@string/smt_total_number"/>
+        <View style="@style/style_view_workshop_vertical"/>
+        <!-- 线别 -->
+        <TextView
+            android:id="@+id/view_workshop_table_txt_line_no"
+            style="@style/style_view_workshop_title"
+            android:layout_weight="0.5"
+            android:text="@string/smt_total_line_no"/>
+        <View style="@style/style_view_workshop_vertical"/>
+        <!-- 客户 -->
+        <TextView
+            android:id="@+id/view_workshop_table_txt_customer"
+            style="@style/style_view_workshop_title"
+            android:layout_weight="0.5"
+            android:text="@string/smt_total_customer"/>
+        <View style="@style/style_view_workshop_vertical"/>
+        <!-- 制令单 -->
+        <TextView
+            android:id="@+id/view_workshop_table_txt_wo"
+            style="@style/style_view_workshop_title"
+            android:layout_weight="1"
+            android:text="@string/smt_total_wo"/>
+        <View style="@style/style_view_workshop_vertical"/>
+        <!-- 批量 -->
+        <TextView
+            android:id="@+id/view_workshop_table_txt_batch"
+            style="@style/style_view_workshop_title"
+            android:layout_weight="0.35"
+            android:text="@string/smt_total_batch"/>
+        <View style="@style/style_view_workshop_vertical"/>
+        <!-- 投产数 -->
+        <TextView
+            android:id="@+id/view_workshop_table_txt_commissioning_number"
+            style="@style/style_view_workshop_title"
+            android:layout_weight="0.35"
+            android:text="@string/smt_total_commissioning_number"/>
+        <View style="@style/style_view_workshop_vertical"/>
+        <!-- aoi良率 -->
+        <TextView
+            android:id="@+id/view_workshop_table_txt_aoi_good_rate"
+            style="@style/style_view_workshop_title"
+            android:layout_weight="0.35"
+            android:text="@string/smt_total_aoi_good_rate"/>
+        <View style="@style/style_view_workshop_vertical"/>
+        <!-- 生产状态 -->
+        <TextView
+            android:id="@+id/view_workshop_table_txt_production_state"
+            style="@style/style_view_workshop_title"
+            android:layout_weight="0.4"
+            android:text="@string/smt_total_production_state"/>
+    </LinearLayout>
+    <ListView
+        android:id="@+id/view_workshop_table_lv_data"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:dividerHeight="0dp"/>
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <!-- 底部信息(当前时间、班次、时段) -->
+    <!-- 时段 -->
+    <TextView
+        android:id="@+id/view_bottom_pattem_tv_shift_time_begin_end"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_alignParentLeft="true"
+        android:gravity="center_vertical"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+    <!--公司版权信息-->
+    <com.topcee.kanban.ui.view.base.BottomBarView
+        android:id="@+id/view_bottom_pattem_company"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:gravity="center_vertical">
+    </com.topcee.kanban.ui.view.base.BottomBarView>
+
+</RelativeLayout>
